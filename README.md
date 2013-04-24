@@ -6,8 +6,8 @@ To see the bug run
 
 `rackup`
 
-and note that CSS and JS are loaded. Now run
+load https://localhost:8443 and note that CSS and JS are loaded. Now run
 
 `rackup -E production`
 
-and see that CSS and JS are not loaded. You'll see requests for them and successful responses, but the responses data will be empty.
+reload the page and see that CSS and JS are not loaded. You'll see requests for them and successful responses, but the data will be empty.
